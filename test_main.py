@@ -20,9 +20,6 @@ class MockDB:
         return [{"username": "name", "birthday": "18/04/96", "role": "tester"}] * 20
 
 
-class BadMockDB:
-    def get_user(self):
-        return [{"username": None, "birthday": None, "role": None}] * 20
 
 
 class TestMain(TestCase):
