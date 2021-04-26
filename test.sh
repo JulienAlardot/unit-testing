@@ -1,2 +1,2 @@
 black --check ./*.py
-pytest unittest.py
+pytest test_main.py

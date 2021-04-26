@@ -14,8 +14,8 @@ python -m pip install black pytest
 ```
 
 ## Usage
-Just run the ***unittest.py*** file with the command :
+Just run the ***test.sh*** file with the command :
 ```shell
-python unittest.py
+test.sh
 ```
 
