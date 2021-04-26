@@ -51,10 +51,10 @@ class TestMain(TestCase):
             for k, v in dict_template.items():
                 self.assertIsNotNone(dict_user[k])
 
-    @staticmethod
     @pytest.mark.parametrize("x", tuple(range(201)))
     @pytest.mark.parametrize("y", tuple(range(201)))
     @pytest.mark.parametrize("z", tuple(range(201)))
+    @staticmethod
     def test_add(x, y, z):
         assert add(x, y, z) == x + y + z
 
